@@ -1,0 +1,25 @@
+{
+  "name": "agente-white-label-diario",
+  "version": "1.0.0",
+  "description": "Agente white label de assistência virtual diária no Telegram: Google Agenda, tarefas, lembretes, finanças e memória de longo prazo (Gemini).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node teste.js",
+    "pm2": "pm2 start ecosystem.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^2.13.0",
+    "dotenv": "^17.4.2",
+    "googleapis": "^173.0.0",
+    "node-cron": "^4.6.0",
+    "node-telegram-bot-api": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
