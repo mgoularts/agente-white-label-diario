@@ -3,6 +3,10 @@
 Este guia explica como ligar o agente a cada serviço de que ele depende. Faça na
 ordem: cada passo gera um valor que vai para o `.env`. Leva de 30 a 45 minutos.
 
+> **Primeira vez ou sem prática com terminal?** Use o
+> **[guiapassoapassoconexao.md](guiapassoapassoconexao.md)**. Ele tem o mesmo conteúdo
+> em etapas com ponto de verificação. Este aqui funciona como referência rápida.
+
 | Passo | Serviço | O que você ganha | Vai para |
 |---|---|---|---|
 | 1 | Node.js | O motor que roda o agente | — |

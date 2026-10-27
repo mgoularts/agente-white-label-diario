@@ -31,7 +31,13 @@ cada cliente.
 | Conta no **Telegram** | R$ 0 | Conversar com a assistente |
 | Conta **Google** | R$ 0 | Agenda (Calendar API) e chave do Gemini |
 
-## Instalação rápida
+## Primeira vez? Comece por aqui
+
+👉 **[guiapassoapassoconexao.md](guiapassoapassoconexao.md)**: do download até o uso
+diário, em 9 etapas. Cada etapa termina com um teste de "está pronto" antes de passar
+para a próxima. Não precisa saber programar.
+
+## Instalação rápida (para quem já tem prática)
 
 ```bash
 git clone https://github.com/mgoularts/agente-white-label-diario.git
