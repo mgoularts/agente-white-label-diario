@@ -40,6 +40,9 @@ npm install
 cp .env.example .env        # no Windows (PowerShell): Copy-Item .env.example .env
 ```
 
+Sem git? No GitHub, use **Code → Download ZIP** e extraia. A pasta vem como
+`agente-white-label-diario-main`.
+
 Depois:
 
 1. Preencha o `.env` e coloque o `credentials.json` na pasta. O passo a passo de cada

@@ -27,14 +27,50 @@ ordem: cada passo gera um valor que vai para o `.env`. Leva de 30 a 45 minutos.
    node -v     # precisa ser v18 ou maior
    npm -v
    ```
-3. Baixe o projeto. Com git, use `git clone <url-deste-repositório>`. Sem git, clique
-   em **Code → Download ZIP** no GitHub e extraia.
+3. Baixe o projeto, de um destes jeitos:
+   - **Com git:** `git clone https://github.com/mgoularts/agente-white-label-diario.git`.
+     Cria a pasta `agente-white-label-diario`.
+   - **Sem git:** no GitHub, clique em **Code → Download ZIP** e extraia. A pasta vem
+     como `agente-white-label-diario-main`. Se quiser, renomeie tirando o `-main`.
 4. Dentro da pasta do projeto:
    ```bash
+   cd agente-white-label-diario
    npm install
    cp .env.example .env          # Windows (PowerShell): Copy-Item .env.example .env
    ```
 5. Abra o `.env` num editor de texto. Você vai preenchê-lo nos próximos passos.
+
+### Como a pasta fica
+
+Logo depois de baixar, só tem código e documentação. Nenhum dado de ninguém vem junto:
+
+```
+agente-white-label-diario/
+├── README.md              ← visão geral
+├── guiadeconexoes.md      ← este guia
+├── guiadenuvem.md         ← como deixar no ar 24h
+├── LICENSE
+├── .env.example           ← modelo das configurações
+├── .gitignore             ← impede que segredos e dados subam para o GitHub
+├── index.js  ai.js  config.js  tools.js  comandos.js
+├── calendar.js  avisos.js  scheduler.js  financas.js
+├── storage.js  util.js  teste.js
+├── ecosystem.config.js    ← configuração do pm2
+├── iniciar-agente.cmd     ← auto-início no Windows (opcional)
+└── package.json  package-lock.json
+```
+
+Depois de configurar e usar, aparecem arquivos que são **só seus**. Todos já estão no
+`.gitignore`:
+
+```
+agente-white-label-diario/
+├── node_modules/          ← criado pelo npm install
+├── .env                   ← você cria a partir do .env.example (passos 2 a 6)
+├── credentials.json       ← você baixa do Google Cloud (passo 4)
+├── data.json              ← criado sozinho na primeira conversa: memórias, tarefas, finanças
+└── data.backup.json       ← cópia de segurança automática (a cada 6h, no máximo)
+```
 
 ---
 

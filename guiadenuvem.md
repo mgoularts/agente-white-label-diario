@@ -93,7 +93,7 @@ O código vem do GitHub. Os segredos vão **direto do seu PC**, nunca pelo GitHu
 Na VM:
 
 ```bash
-git clone <url-deste-repositório> ~/agente-white-label-diario
+git clone https://github.com/mgoularts/agente-white-label-diario.git ~/agente-white-label-diario
 cd ~/agente-white-label-diario && npm install
 ```
 
