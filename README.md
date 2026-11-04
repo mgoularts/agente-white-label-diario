@@ -1,5 +1,7 @@
 # Agente White Label Diário
 
+🇺🇸 [Read in English](README.en.md)
+
 Uma assistente pessoal no **Telegram** que organiza o seu dia: agenda do Google,
 tarefas, lembretes, finanças e memória de longo prazo. A inteligência é a API do
 **Gemini**, do Google, e roda na cota gratuita.
